@@ -1,6 +1,7 @@
 # SuperSoccer Showdown
 
-SuperSoccer Showdown is a Python application that generates random teams for a soccer tournament, featuring characters from the Star Wars and Pokemon universes.
+SuperSoccer Showdown is a Python application that generates random teams for a soccer tournament, featuring characters
+from the Star Wars and Pokemon universes.
 
 ## Features
 
@@ -13,10 +14,12 @@ SuperSoccer Showdown is a Python application that generates random teams for a s
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/super-soccer-showdown.git
+git clone https://github.com/barnaben/super-soccer-showdown.git
 cd super-soccer-showdown
 ```
+
 2. Install dependencies
+
 ```bash
 $ pip install -r requirements.txt
 ```
@@ -24,6 +27,7 @@ $ pip install -r requirements.txt
 ## Usage
 
 1. Run the main.py file:
+
 ```bash
 python main.py
 ```
@@ -31,5 +35,5 @@ python main.py
 2. Access the generated teams through the API endpoints ('http://localhost:5000/).
 
 ## API Endpoint
-- Root URL: http://localhost:5000/
 
+- Root URL: http://localhost:5000/
