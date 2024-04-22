@@ -1,8 +1,8 @@
 import unittest
 from unittest.mock import Mock
 
-from application import TeamGenerator
 from domain import Team
+from services import TeamGenerator
 
 
 class TestTeamGenerator(unittest.TestCase):

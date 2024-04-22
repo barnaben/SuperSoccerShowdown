@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 
 from adapters import StarWarsAPIClient, PokemonAPIClient
-from application import TeamGenerator
+from services import TeamGenerator
 
 app = Flask(__name__)
 
