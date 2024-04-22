@@ -57,7 +57,7 @@ class Team:
     def to_dict(self):
         return {"goalkeeper": self.players[0].__dict__,
                 "offence": [self.players[1].__dict__, self.players[2].__dict__],
-                "defence": [self.players[2].__dict__, self.players[3].__dict__]}
+                "defence": [self.players[3].__dict__, self.players[4].__dict__]}
 
     # Method to pprint the string format of the team
     def __str__(self):
