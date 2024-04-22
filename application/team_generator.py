@@ -1,4 +1,4 @@
-from models import Team, Player
+from domain import Team, Player
 
 
 class TeamGenerator:

@@ -3,7 +3,7 @@ import random
 
 import requests
 
-from APIClients.BaseAPICient import BaseAPIClient
+from interfaces.base_api_client import BaseAPIClient
 
 
 # Subclass of BaseAPIClient for fetching Pokémon data
@@ -37,5 +37,5 @@ class PokemonAPIClient(BaseAPIClient):
         players = [{"name": p["name"].title(), "weight": int(p["weight"] / 10), "height": int(p["height"] * 10)} for p
                    in
                    random_players]
-        
+
         return players

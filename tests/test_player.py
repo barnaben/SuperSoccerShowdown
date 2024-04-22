@@ -1,6 +1,6 @@
 import unittest
 
-from models import Player
+from domain import Player
 
 
 class TestPlayer(unittest.TestCase):

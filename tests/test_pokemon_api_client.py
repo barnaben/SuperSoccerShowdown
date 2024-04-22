@@ -1,11 +1,11 @@
 import unittest
 
-from APIClients import StarWarsAPIClient
+from adapters import PokemonAPIClient
 
 
-class TestStarWarsAPIClient(unittest.TestCase):
+class TestPokemonAPIClient(unittest.TestCase):
     def setUp(self):
-        self.client = StarWarsAPIClient()
+        self.client = PokemonAPIClient()
 
     def test_fetch_players(self):
         players = self.client.fetch_players(5)

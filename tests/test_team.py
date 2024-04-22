@@ -1,7 +1,7 @@
 import random
 import unittest
 
-from models import Player, Team
+from domain import Player, Team
 
 
 class TestTeam(unittest.TestCase):
